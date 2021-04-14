@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+/* Global Properties */
+:root {
+    --primary-font: 'Kalam', cursive;
+    --primary-color: #F2C764;
+    --secondary-color: #000000;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Section */
+.section {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.header {
+    text-align: center;
+    padding: 5px;
+    background-color: var(--primary-color);
+}
+.header h1 {
+    font-family: var(--primary-font);
+    font-style: italic;
+}
+textarea {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    border: 1px solid var(--secondary-color);
+}
+#btn-translate {
+    padding: 15px;
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    border: 0;
+}
+.output-head {
+    font-size: larger;
+    margin-top: 20px;
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#output {
+    display: block;
+    margin: auto;
+    border: 1px solid var(--secondary-color);
+    height: 15vh;
+    width: 100%;
+    margin-top: 0.3rem;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--primary-font);
+}
